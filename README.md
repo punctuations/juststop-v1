@@ -1,9 +1,9 @@
 <img align="center" src="https://i.ibb.co/LhDJzWy/header.png" />
-
+<img src="https://img.shields.io/github/last-commit/punctuations/juststop">
 <br>
 
 ## Why Me?
-Because I am, well, me. You can see my past experiences on [the website.](https://punctuation.cf/projects)
+ 🤷‍♂️ *I mean you can always see my past experiences on [the website.](https://punctuation.cf/projects)*
 
 ## Team
 This website was made by:
@@ -22,4 +22,4 @@ I got a lot of help from:
 
 <hr>
 
-<div align="center"><sup><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. And the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License, version 3</a> license.</sup></div>
+<div align="center"><sup><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, and the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License, version 3</a> license.</sup></div>
