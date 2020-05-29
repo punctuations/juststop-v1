@@ -12,7 +12,7 @@ canvas {
 
 .snowflake {
   position: fixed;
-  background-color: #CCC;
+  background-color: #ccc;
   user-select: none;
   z-index: 1000;
   pointer-events: none;
@@ -23,25 +23,26 @@ canvas {
 
 html,
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column nowrap;
-    margin: 0;
-    scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: 0;
+  scroll-behavior: smooth;
 
-    width: 100%;
-    height: 80%;
-    font: 16px/2 'Roboto Mono';
-    background-color: #0d1326;
-    color: white;
+  width: 100%;
+  height: 80%;
+  font: 16px/2 "Roboto Mono";
+  background-color: #0d1326;
+  color: white;
 }
 
 main {
   position: relative;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: white;
   background: orange;
 }
@@ -52,7 +53,7 @@ main {
 }
 
 h1 {
-  font: 16/2 'Roboto Mono';
+  font: 16/2 "Roboto Mono";
   font-weight: bold;
 }
 
@@ -74,6 +75,10 @@ h1 {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #cc9600;
+}
+
+.bg-blue-1000 {
+  background-color: #090d19;
 }
 
 .errortxt {
@@ -145,51 +150,51 @@ span.spooky {
 }
 
 ul {
-    list-style-type: square;
-    padding: 0 1em;
+  list-style-type: square;
+  padding: 0 1em;
 }
 
 li a {
-    display: block;
-    color: inherit;
-    text-decoration: none;
-    padding-left: 0.5em;
-    border-radius: 0.15em;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 0.5em;
+  border-radius: 0.15em;
 }
 
 li a:hover {
-    background: #212530;
+  background: #212530;
 }
 
 li button {
-    display: block;
-    color: inherit;
-    text-decoration: none;
-    padding-left: 0.5em;
-    border-radius: 0.15em;
-    background-color: #0d1326;
-    border: hidden;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 0.5em;
+  border-radius: 0.15em;
+  background-color: #0d1326;
+  border: hidden;
 }
 
 li button:hover {
-    background: #212530;
+  background: #212530;
 }
 
 .card a {
-  color: #FFD042;
+  color: #ffd042;
   background-color: #1b1e26;
   font-size: 11px;
   display: inline-flex;
   position: relative;
 }
 
-.card a:hover{
+.card a:hover {
   background-color: #1b1e26;
   text-decoration: none;
 }
 
-.card a:visited{
-  color: #FFD042;
+.card a:visited {
+  color: #ffd042;
 }
 
 a:link {
@@ -222,40 +227,47 @@ a:active {
 }
 
 @media (max-width: 500px) {
-    html,
-    body {
-        display: inherit !important;
-        padding: 1em;
-    }
+  html,
+  body {
+    display: inherit !important;
+    padding: 1em;
+  }
 
-    main {
-        width: 100%;
-    }
+  main {
+    width: 100%;
+  }
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* yup, i took this. */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
