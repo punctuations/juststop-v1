@@ -390,19 +390,19 @@ var d = new Date();
 	} else {
 	  $( "span.snowflake" ).hide();
 	}															//June 28																											//June 28
-	if (d.getMonth() == new Date('June 28, 2020 00:000:00').getMonth() && d.getDay() == new Date('June 28, 2020 00:00:00').getDay()) {
+	if (d.getMonth() == new Date('June 28, 2020 00:000:00').getMonth() && d.getDate() == new Date('June 28, 2020 00:00:00').getDate()) {
 		confetti.toggle();
 		startConfetti();
 	} else {
 
 	}
-	if (d.getMonth() == new Date('Dec 21, 2020 00:00:00').getMonth() && d.getDay() == new Date('Dec 21, 2020 00:00:00').getDay()) {
+	if (d.getMonth() == new Date('Dec 21, 2020 00:00:00').getMonth() && d.getDate() == new Date('Dec 21, 2020 00:00:00').getDate()) {
 		confetti.toggle();
 		startConfetti();
 	} else {
 
 	}
-	if (d.getMonth() == new Date('Oct 31, 2020 00:00:00').getMonth() && d.getDay() == new Date('Oct 31, 2020 00:00:00').getDay()) {
+	if (d.getMonth() == new Date('Oct 31, 2020 00:00:00').getMonth() && d.getDate() == new Date('Oct 31, 2020 00:00:00').getDate()) {
 		$( 'span.spooky' ).show();
 	} else {
 		$( 'span.spooky' ).hide();
